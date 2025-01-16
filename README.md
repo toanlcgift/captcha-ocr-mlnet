@@ -8,7 +8,7 @@ Implementation of Captcha OCR using CNNs, RNNs and CTC loss
 <img src="ConsoleApp/test.png" alt="raw image" height="50" >
 </p>
 
-Note: can use following code to convert from keras model to onnx model
+Note: can use following code to convert from keras model to onnx model, then replace https://github.com/toanlcgift/captcha-ocr-mlnet/blob/main/Common/model.onnx by your own model.
 ``` python
 import tensorflow as tf
 import tf2onnx
