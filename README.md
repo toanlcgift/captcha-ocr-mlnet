@@ -5,4 +5,5 @@ Implementation of Captcha OCR using CNNs, RNNs and CTC loss
 
 <p align="center">
 <img src="docs/console.png" alt="console output" height="300" >
+<img src="ConsoleApp/test.png" alt="raw image" height="50" >
 </p>
