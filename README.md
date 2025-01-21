@@ -3,13 +3,32 @@ Implementation of Captcha OCR using CNNs, RNNs and CTC loss
 
 .net implementation of https://github.com/keras-team/keras-io/blob/master/examples/vision/captcha_ocr.py
 
-data set: https://www.kaggle.com/fournierp/captcha-version-2-images
+## Data set: 
 
-getting dataset: 
+https://www.kaggle.com/fournierp/captcha-version-2-images
+
+## Getting dataset: 
+
 ```shell
 curl -LO https://github.com/AakashKumarNain/CaptchaCracker/raw/master/captcha_images_v2.zip
 unzip -qq captcha_images_v2.zip
 ```
+
+## Packages
+
+Microsoft.ML [![NuGet Status](https://img.shields.io/nuget/v/Microsoft.ML.svg?style=flat)](https://www.nuget.org/packages/Microsoft.ML/)
+
+Microsoft.ML.OnnxRuntime [![NuGet Status](https://img.shields.io/nuget/v/Microsoft.ML.OnnxRuntime.svg?style=flat)](https://www.nuget.org/packages/Microsoft.ML.OnnxRuntime/)
+
+Microsoft.ML.OnnxTransformer [![NuGet Status](https://img.shields.io/nuget/v/Microsoft.ML.OnnxTransformer.svg?style=flat)](https://www.nuget.org/packages/Microsoft.ML.OnnxTransformer/)
+
+TensorFlow.NET [![NuGet Status](https://img.shields.io/nuget/v/TensorFlow.NET.svg?style=flat)](https://www.nuget.org/packages/TensorFlow.NET/)
+
+TensorFlow.Keras [![NuGet Status](https://img.shields.io/nuget/v/TensorFlow.Keras.svg?style=flat)](https://www.nuget.org/packages/TensorFlow.Keras/)
+
+SciSharp.TensorFlow.Redist [![NuGet Status](https://img.shields.io/nuget/v/SciSharp.TensorFlow.Redist.svg?style=flat)](https://www.nuget.org/packages/SciSharp.TensorFlow.Redist/)
+
+## Example:
 
 <p align="center">
 <img src="docs/console.png" alt="console output" height="300" >
