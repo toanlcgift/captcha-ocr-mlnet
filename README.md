@@ -3,6 +3,14 @@ Implementation of Captcha OCR using CNNs, RNNs and CTC loss
 
 .net implementation of https://github.com/keras-team/keras-io/blob/master/examples/vision/captcha_ocr.py
 
+data set: https://www.kaggle.com/fournierp/captcha-version-2-images
+
+getting dataset: 
+```shell
+curl -LO https://github.com/AakashKumarNain/CaptchaCracker/raw/master/captcha_images_v2.zip
+unzip -qq captcha_images_v2.zip
+```
+
 <p align="center">
 <img src="docs/console.png" alt="console output" height="300" >
 <img src="ConsoleApp/test.png" alt="raw image" height="50" >
